@@ -29,7 +29,7 @@ const Menu = ({setLineColor, setLineWidth, setLineOpacity}) => {
                 max="20"
                 onChange={onChangeHandlerWidth}
             />
-            <label>Прозрачность кисти</label>
+            <label>Непрозрачность кисти</label>
             <input
                 type="range"
                 min="1"
