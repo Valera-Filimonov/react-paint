@@ -49,7 +49,7 @@ function App() {
 
   return (
       <div className="App">
-        <h1>React Paint App</h1>
+        <h1>React Paint App 0.1.0</h1>
         <div className="draw-area">
           <Menu
               setLineColor={setLineColor}
