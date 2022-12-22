@@ -35,13 +35,13 @@ function App() {
     setIsDrawing(false);
   };
 
-  const draw = (e) => {
+  const draw = (event) => {
     if (!isDrawing) {
       return;
     }
     ctxRef.current.lineTo(
-        e.nativeEvent.offsetX,
-        e.nativeEvent.offsetY
+        event.nativeEvent.offsetX,
+        event.nativeEvent.offsetY
     );
 
     ctxRef.current.stroke();
